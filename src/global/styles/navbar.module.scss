@@ -1,0 +1,33 @@
+.container_header {
+  color: var(--first);
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0px 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  .company h2 {
+    font-size: 37px;
+    @media screen and (max-width: 515px) {
+      font-size: 27px;
+    }
+  }
+  .container_profile {
+    justify-self: end;
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

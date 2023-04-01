@@ -1,0 +1,55 @@
+.container_father {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+}
+
+.container_title {
+  text-align: center;
+  font: 300 2.75rem/3.5rem "Value Serif";
+  color: var(--first);
+  margin-top: 20px;
+  @media screen and (max-width: 470px) {
+    & {
+      font-size: 25px;
+    }
+  }
+}
+
+.container_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container_option {
+  margin: 0px 10px;
+  text-align: center;
+  p {
+    font-size: 20px;
+  }
+}
+
+.container_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_info {
+  display: grid;
+  place-content: center;
+  width: 380px;
+}
+
+.container_info p {
+  padding: 10px 5%;
+  font: 18px;
+}
+
+.container_info p b {
+  color: var(--first);
+}

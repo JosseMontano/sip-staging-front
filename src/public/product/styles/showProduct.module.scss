@@ -1,0 +1,158 @@
+.containerFather {
+  display: grid;
+  place-content: center;
+}
+
+.img {
+  height: 280px;
+  width: 100%;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.tittleProduct {
+  font-size: 23px;
+}
+
+.conteinerPrice {
+  margin-top: 10px;
+}
+
+.conteinerPrice,
+h2 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.borderPriceProduct {
+  border: solid 1px rgb(194, 189, 189);
+  margin-bottom: 25px;
+}
+
+/*--------------------------*/
+
+.infoContainer {
+  height: 300px;
+}
+
+.containerDetailsOrder {
+  display: flex;
+  justify-content: center;
+}
+
+.containerAmountProduct {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.containerSpecicationsProduct {
+  width: 50%;
+  font-weight: bolder;
+}
+.specificationsProduct {
+  margin-top: 15px;
+  border: none;
+  border-bottom: solid 1px rgb(194, 189, 189);
+}
+
+.specificationsProduct:focus {
+  outline: none;
+}
+
+.textAmountProduct {
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.buttonAmountProduct {
+  width: 35%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px var(--first);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.buttonAmount {
+  width: 30px;
+  display: grid;
+  place-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.amount {
+  width: 20px;
+  display: grid;
+  place-content: center;
+}
+
+.buttonAmount:hover {
+  cursor: pointer;
+  color: var(--first);
+}
+
+.buttonOrder {
+  width: 200px;
+  border: none;
+  border-radius: 55px;
+  background: var(--third);
+  padding: 15px;
+  color: var(--first);
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 670px) {
+  .containerFather {
+    width: 400px;
+  }
+  .img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .containerFather {
+    width: 300px;
+  }
+  .specificationsProduct {
+    width: 140px;
+  }
+  .buttonAmountProduct {
+    width: 45%;
+  }
+}
+
+/*------------------------------------------*/
+
+.buttonsContainer {
+  display: flex;
+  width: 100%;
+  height: 2.7rem;
+  margin-top: 0.5rem;
+}
+
+.buttonsContainer > .content {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  display: grid;
+  place-content: center;
+}
+
+.buttonsContainer > .content:hover {
+  opacity: 0.8;
+}
+
+.container_icon{
+  text-align: center;
+}
+
+.active{
+  color: var(--first);
+}
