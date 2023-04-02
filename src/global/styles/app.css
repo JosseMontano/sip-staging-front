@@ -7,23 +7,18 @@ Text_body:#706766
 */
 
 @font-face {
-  font-family: 'Value Serif';
-  src: url('../src/global/assets/fonts/value-serif.ttf');
-}
-
-@font-face {
   font-family: 'Aeonik';
-  src: url('../src/global/assets/fonts/Aeonik-Light.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-LightItalic.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-Regular.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-RegularItalic.otf')
+  src: url('../assets/fonts/Aeonik-Light.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-LightItalic.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-Regular.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-RegularItalic.otf')
       format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-Bold.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-BoldItalic.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-Black.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-BlackItalic.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-Thin.otf') format('opentype'),
-    url('../src/global/assets/fonts/Aeonik-ThinItalic.otf') format('opentype');
+    url('../assets/fonts/Aeonik-Bold.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-BoldItalic.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-Black.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-BlackItalic.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-Thin.otf') format('opentype'),
+    url('../assets/fonts/Aeonik-ThinItalic.otf') format('opentype');
 }
 
 * {
