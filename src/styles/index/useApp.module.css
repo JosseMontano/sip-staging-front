@@ -1,0 +1,55 @@
+.container_father {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.contain_description {
+  width: 500px;
+  padding: 10px;
+}
+
+.contain_description h2 {
+  font: 600 2.75rem/3.5rem "Aeonik";
+  color: var(--first);
+}
+
+.contain_description h2 p {
+  margin: 10px 0px;
+  font: 400 1rem/1.625rem "Aeonik";
+}
+
+.contain_description h2 p b {
+  color: #323232;
+  font-weight: bold;
+}
+
+.contain_description ul {
+  list-style: none;
+  font: 400 1rem/1.625rem;
+}
+
+.contain_description ul li b {
+  color: var(--first);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contain_form {
+  display: grid;
+  place-content: center;
+  background-color: #fcfcfc;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .contain_description ul {
+    display: flex;
+    justify-content: center;
+  }
+  .contain_description ul div {
+    width: 80%;
+  }
+}

@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.active {
+  background-color: rgba(252, 230, 227, 0.5);
+  border-radius: 15px;
+  border: 1px solid var(--first);
+  color: var(--first);
+}
+
+.card div {
+  margin-top: 10px;
+}
+.card div img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.card div h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .card div img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,127 @@
+.container_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_form {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 0.7rem 0;
+}
+
+.form {
+  display: grid;
+  place-content: center;
+  width: 300px;
+  gap: 0.5rem;
+}
+
+.form > label {
+  font-size: 1.1rem;
+}
+
+.form > label span {
+  font-size: 0.8rem;
+  color: var(--first);
+}
+
+.form > input,
+.button {
+  font-size: 1rem;
+}
+
+.form > .input {
+  height: 40px;
+  padding: 0 16px;
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.form > .input::placeholder {
+  font-weight: 500;
+  color: #555555;
+}
+
+.form > .text_area {
+  height: 170px;
+  padding: 0 16px;
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+  resize: vertical;
+}
+
+.form > .text_area::placeholder {
+  font-weight: 500;
+  color: #555555;
+}
+
+.form .select {
+  height: 40px;
+  padding: 0 16px;
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.form > input[type="submit"],
+.button {
+  height: 48px;
+  width: max-content;
+  border: none;
+  cursor: pointer;
+  padding: 0 48px;
+  background-color: var(--first);
+  color: white;
+  font-weight: 600;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container_file {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.container_file .input_file {
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  outline: none;
+}
+
+.container_file .input_file::file-selector-button {
+  color: #fff;
+  background-color: var(--second);
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+.container_file .input_file::file-selector-button:hover {
+  background-color: var(--third);
+  color: #000;
+  cursor: pointer;
+}
+
+.button {
+  color: var(--first);
+  background-color: white;
+}
+
+.error {
+  color: #a91d1d;
+}

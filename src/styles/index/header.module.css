@@ -1,0 +1,91 @@
+.container {
+  background: var(--first);
+  height: calc(100vh - 60px);
+  width: 100%;
+  position: relative;
+}
+
+.container .img {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  position: relative;
+  background-image: linear-gradient(
+      120deg,
+      rgb(246, 211, 101) 0%,
+      rgba(253, 160, 133, 0.5) 100%
+    ),
+    url("../../assets/index/background.jpg");
+}
+
+.wave {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  text-align: center;
+}
+
+.container_text h1 {
+  font: 700 4rem/4.625rem "Aeonik";
+  color: #fff;
+}
+
+.container_text p {
+  font: 400 1.125rem/1.75rem;
+  color: #fff;
+  margin: 15px 0px;
+}
+
+.container_text button {
+  border: none;
+  width: 170px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: var(--third);
+  color: #000;
+  z-index: 1;
+}
+
+.container_text button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: var(--first);
+  transform: scale(1.1);
+}
+
+.container_media {
+  display: flex;
+  justify-content: center;
+}
+
+.container_media img {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and(max-width:841px) {
+  .container_media img {
+    width: 400;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container_text {
+    padding: 0px 10%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

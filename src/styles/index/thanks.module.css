@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  background-color: var(--third);
+  padding: 10px;
+}
+
+.container h3 {
+  font-size: 2.5rem;
+  color: var(--first);
+}
+
+.container .icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.container .icons img{
+  cursor: pointer;
+}
+
+.container .leaflet {
+  width: 220px;
+  height: 100px;
+}

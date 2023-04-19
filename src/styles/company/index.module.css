@@ -1,0 +1,109 @@
+.container_card {
+  background: #f3f3f3;
+  padding: 1%;
+  min-height: 100vh;
+}
+
+.container_card h1 {
+  color: #000;
+  margin: 10px;
+}
+
+.container_card h1 span {
+  color: var(--first);
+}
+
+.container_card h4 {
+  color: #000;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.container_card h2 {
+  font-size: 27px;
+}
+
+.container_card p {
+  font-size: 13px;
+}
+
+.contenSearch {
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contenSearch form {
+  width: 80%;
+  margin: auto;
+}
+
+.contenSearch form > div {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+    rgba(0, 0, 0, 0.1) 10px 10px 10px,
+    rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+}
+
+.contenSearch form input {
+  font-size: 15px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  padding-right: 24px;
+  background-image: url(../../assets/company/searchIcon.png);
+  background-position: right;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  width: 100%;
+  outline: none;
+}
+
+.contenRecomend {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contenRecomend h3 {
+  color: orange;
+}
+
+.contenRecomend img {
+  max-width: 100px;
+}
+
+.contenCali {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  width: 400px;
+  background: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+}
+
+.nearMe {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  width: 80%;
+  background: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+}

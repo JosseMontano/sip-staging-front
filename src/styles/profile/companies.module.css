@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 10px;
+}
+
+.Img {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.Img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
